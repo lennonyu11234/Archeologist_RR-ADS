@@ -1,0 +1,44 @@
+{
+  "activation_dropout": 0.0,
+  "activation_function": "gelu",
+  "architectures": [
+    "BartForSequenceClassification"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 0,
+  "classifier_dropout": 0.0,
+  "d_model": 1024,
+  "decoder_attention_heads": 16,
+  "decoder_ffn_dim": 4096,
+  "decoder_layerdrop": 0.0,
+  "decoder_layers": 12,
+  "decoder_start_token_id": 2,
+  "dropout": 0.1,
+  "encoder_attention_heads": 16,
+  "encoder_ffn_dim": 4096,
+  "encoder_layerdrop": 0.0,
+  "encoder_layers": 12,
+  "eos_token_id": 2,
+  "forced_eos_token_id": 2,
+  "id2label": {
+    "0": "Negative",
+    "1": "Positive"
+  },
+  "init_std": 0.02,
+  "is_encoder_decoder": true,
+  "label2id": {
+    "Negative": 0,
+    "Positive": 1
+  },
+  "max_position_embeddings": 1024,
+  "model_type": "bart",
+  "num_hidden_layers": 12,
+  "pad_token_id": 1,
+  "scale_embedding": false,
+  "torch_dtype": "float32",
+  "transformers_version": "4.21.2",
+  "use_cache": true,
+  "vocab_size": 23,
+  "num_labels": 1,
+  "problem_type": "single_label_classification"
+}
